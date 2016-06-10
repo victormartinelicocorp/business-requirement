@@ -97,15 +97,14 @@ BR.
    :width: 800 px
    :alt: Set up your default resources lines.
 
-
 Usage
 =====
 
-#. Prepare your deliverables in the Product menu and add the expected RL
+#. Create Deliverables product in the Product menu and add the expected RL in the "Default Resource Line" tab
 
-#. Create a new BR and add the deliverable product in the deliverable line
+#. Create a new BR and add the deliverable product in the deliverable line. The default RL added in previous step will be automatically added to the BR
 
-#. Adapt the resources lines if necessary
+#. In the BR, adapt the newly added resources lines if necessary
 
 |image3|
 
@@ -131,11 +130,9 @@ Known issues / Roadmap
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/OCA/
-project/issues>`_.
+Bugs are tracked on `GitHub Issues <https://github.com/OCA/business-requirement/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed feedback.
-
 
 Credits
 =======
