@@ -23,7 +23,7 @@ Procurement, Project or Analytic Accounting. For example:
 
 |image7|
 
-.. |image7| image:: static/img/bus_req_tree.png
+.. |image7| image::  business_requirement_deliverable_default/static/img/bus_req_tree.png
    :width: 800 px
    :alt: Business Requirement List view
 
@@ -31,7 +31,7 @@ The following diagram gives a simplified view of the universe:
 
 |image11|
 
-.. |image11| image:: static/img/bus_req_module_diag.png
+.. |image11| image::  business_requirement_deliverable_default/static/img/bus_req_module_diag.png
    :width: 800 px
    :alt: Business Requirement modules diagram
 
@@ -98,7 +98,7 @@ BR.
 
 |image2|
 
-.. |image2| image:: static/img/bus_req_default.png
+.. |image2| image::  business_requirement_deliverable_default/static/img/bus_req_default.png
    :width: 800 px
    :alt: Set up your default resources lines.
 
@@ -113,7 +113,7 @@ Usage
 
 |image3|
 
-.. |image3| image:: static/img/bus_req_default2.png
+.. |image3| image::  business_requirement_deliverable_default/static/img/bus_req_default2.png
    :width: 800 px
    :alt: The default resource lines are automatically added to your BR
 
