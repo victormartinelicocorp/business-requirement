@@ -2,88 +2,25 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==============================================
-Business Requirement Deliverable Task Category
-==============================================
-
 Introduction
-^^^^^^^^^^^^
-
-This module is part of a set ("Business Requirement").
-The Business Requirements features start as independent entities, and can be 
-used as standalone.
-
-Additional modules integrate them with other business areas, such as Sales, 
-Procurement, Project or Analytic Accounting. For example:
-
-* Sales Quotation can have an estimation supported by a BR analysis
-* Project Tasks can be related to the BRs they implement or support
-* Procurement and purchase can be generated out of the BR
-
-.. figure:: static/img/bus_req_tree.png
-   :width: 600 px
-   :alt: Business Requirement List view
-
-The following diagram gives a simplified view of the universe:
-
-.. figure:: static/img/bus_req_module_diag.png
-   :width: 600 px
-   :alt: Business Requirement modules diagram
-
-What is a Business Requirement?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-A Business requirement (BR) is the expression of a business need by a customer 
-or internal project user.
-A BR can contain multiple different parts depending on the company needs:
-
-* Customer Story: this is the requirement as expressed by the customer
-* Scenario: How/where the current solution can provide a suitable scenario to 
-  answer the customer story
-* Gap: For the uncovered part of the scenario, elaborate the gap/need for specific 
-  developments/setup
-* Deliverables to be provided to the customer/user
-* Resources necessary to achieve the deliverables
-* Additional information (approval, cost control etc.)
-
-These modules were originally designed for the service/IT industry but the 
-requirement management is generic and can apply to many cases/industries (customer 
-or internal projects):
-
-* Construction
-* Trading (New product development)
-* Business Consultancy
-* IT development
-
-What is the difference between a BR and CRM lead?
-
-* CRM leads are sales oriented
-* BR are project and workload estimation oriented
-
-How to use this module?
-^^^^^^^^^^^^^^^^^^^^^^^
-
-This module introduces 1 new concept in the business requirements resource line:
-
-* Task Category
-* If module business_requirement_project is installed the category will be 
-  propagated to the task at project/task creation.
-
-Installation
 ============
 
-No specific steps required
+This module is part of a set of modules (`Business Requirements <https://github.com/OCA/business-requirement/blob/8.0/README.md>`_) 
+
+This module introduces `Task Category` concept in the business requirements resource line.
+
+If module business_requirement_project is installed, the category will be propagated to the
+task at project/task creation.
 
 Configuration
 =============
 
 Users
-^^^^^
-
+-----
 No specific ACL are required for the module.
 
 Task category
-^^^^^^^^^^^^^
+-------------
 
 You can define the task category in the Project/Configuration/Task category menu
 
