@@ -16,6 +16,7 @@
         "business_requirement_deliverable"
     ],
     'image': [
+		'static/description/icon.png',
         'static/img/bus_req_category.png'
     ],
     "data": [
