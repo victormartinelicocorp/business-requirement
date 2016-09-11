@@ -4,7 +4,7 @@
 {
     "name": "Business Requirement Deliverable Category",
     'category': 'Business Requirements Management',
-    'summary': 'Business Requirement Deliverable Task Categories',
+    'summary': 'Adds Task Categories in Business Requirement Resource lines',
     "version": "8.0.3.0.2",
     "website": "www.elico-corp.com",
     "author": "Elico Corp, Odoo Community Association (OCA)",
@@ -16,7 +16,6 @@
         "business_requirement_deliverable"
     ],
     'image': [
-        'static/img/bus_req_tree.png',
         'static/img/bus_req_category.png'
     ],
     "data": [
